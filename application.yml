@@ -1,0 +1,9 @@
+spring:
+     profiles: dev
+          application:
+                name: micro-service-cloud-config-wml-dev
+---
+spring:
+     profiles: test
+          application:
+                name: micro-service-cloud-config-wml-test
