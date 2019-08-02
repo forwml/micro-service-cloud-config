@@ -1,9 +1,18 @@
 spring:
-     profiles: dev
-          application:
-                name: micro-service-cloud-config-wml-dev
+    profiles:
+        active:
+            - dev
+
 ---
 spring:
-     profiles: test
-          application:
-                name: micro-service-cloud-config-wml-test
+    profiles: dev
+    application:
+        name: micro-service-cloud-config-wml-dev
+
+---
+spring:
+    profiles: test
+    application:
+        name: micro-service-cloud-config-wml-test
+
+#保存utf-8格式,系统
