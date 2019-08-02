@@ -15,4 +15,3 @@ spring:
     application:
         name: micro-service-cloud-config-wml-test
 
-#保存utf-8格式,系统
